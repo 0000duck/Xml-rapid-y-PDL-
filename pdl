@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="PDL" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00-- 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">MOVE NODEDEF OPEN RECORD SELECT TRY WHILE IF</Keywords>
+            <Keywords name="Folders in code1, middle">ELSE</Keywords>
+            <Keywords name="Folders in code1, close">ENCODE ENDCONDITION ENDFOR ENDIF ENDMOVE ENDNODEDEF ENDOPEN ENDRECORD ENDSELECT ENDTRY ENDWHILE</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">ABORT ABOUT ACTIVATE ACTIVATES ADVANCE AFTER ALARM ALL ALONG AND ANY ANYERROR ARM ARRAY ASSERT AT ATTACH AWAY BEFORE BEGIN BOOLEAN BREAK BY BYPASS CALL CALLS CANCEL CASE CATCH CLASS CLOSE CONDITION CONNECT CONST CONTINUE CURRENT CYCLE CYCLES DEACTIVATE DEACTIVATES DECODE DELAY DETACH DISABLE DISTANCE DIV DO DOWNTO DV_CNTRL ELSE ENABLE ERRORCLASS ERRORNUM EVENT EXECS EXIT EXPORTED FILE FINAL FOR FROM GOTO GOTOS HAND HOLD IMPORT IN INTEGER INTERRUPT JOINTPOS LOCK LONGJUMP MC MJ ML MOD MOVE MOVEFLY MV NEAR NL NODATA NODEDEF NODISABLE NOHOLD NOSAVE NOT NOTEACH OF OPEN OR PATH PAUSE PAUSES PERCENT PLC POSITION POWERUP PRIORITY PROGRAM PROG_ARM PULSE PURGE RAISE READ REAL RECORD RELATIVE RELAX REPEAT RESUME RETRY RETURN ROL ROR ROUTINE SCAN SEGMENT SELECT SEMAPHORE SETJUMP SHL SHR SIGNAL SKIP STACK START STEP STOP STRING SYNCMOVE SYNCMOVEFLY THEN TIL TIME TO TRY TYPE UAL UNLOCK UNPAUSE UNPAUSES UNTIL VAR VECTOR VIA VOID WAIT WHEN WHILE WINDOW WITH WRITE XOR XTNDPOS YELD END</Keywords>
+            <Keywords name="Keywords2">ADV BASE CIRCULAR COARSE COLL_DSBL COLL_HIGH COLL_LOW COLL_MANUAL COLL_MEDIUM COLL_USER1..10 COM_ASCII COM_BD110 COM_BD300 COM_BD1200 COM_BD2400 COM_BD4800 COM_BD9600 COM_BD19200 COM_BD38400 COM_BD57600 COM_BD115200 COM_BIT7 COM_BIT8 COM_CHAR COM_CHARNO COM_PAR_EVEN COM_PAR_NO COM_PAR_ODD COM_PASAL COM_RDAHD COM_RDAHD_NO COM_STOP1 COM_STOP1_5 COM_STOP2 COM_XSYNC COM_XSYNC_NO CONV_INIT CONV_INIT_ON CONV_OFF CONV_ON DT_ABOOLEAN DT_AINTEGER DT_AJOINTPOS DT_ANODE DT_APOSITION DT_AREAL DT_ARECORD DT_ASEMAPHORE DT_ASTRING DT_AVECTOR DT_AXTNDPOS DT_BOOLEAN DT_INTEGER DT_JOINTPOS DT_NODE DT_PATH DT_POSITION DT_REAL DT_RECORD DT_SEMAPHORE DT_STRING DT_VECTOR DT_XTNDPOS EC_BYPASS EC_COND EC_DISP EC_ELOG EC_FILE EC_MATH EC_PIO EC_PLC EC_PROG EC_RLL EC_SYS EC_SYS_C EC_TRAP EC_USR1 EC_USR2 ERR_ABORT ERR_ACK ERR_CANCEL ERR_FALSE ERR_IGNORE ERR_NO ERR_OFF ERR_OK ERR_ON ERR_RESET ERR_RETRY ERR_SKIP ERR_SKIP_N ERR_TRUE ERR_YES EUL_WORLD FALSE FINE FLY FLY_AUTO FLY_CART FLY_FROM FLY_PASS FLY_TOL IR_CYLINDER IR_FORBIDDEN IR_JOINT IR_MONITORED IR_NOT_PRESENT IR_PARALLELEPIPED IR_PLANE IR_PRESENCE IR_SPHERE JNT_COARSE JNT_FINE JOINT JPAD_LIN JPAD_ROT LANG_CS LANG_DE LANG_EN LANG_FR LANG_IT LANG_PL LANG_PO LANG_RU LANG_SP LANG_TR LANG_ZH LINEAR LUN_CRT LUN_NULL LUN_SIO LUN_TP MAXINT MININT NOADV NOFLY NOSETTLE OFF ON ON_MV PDV_CRT PDV_TP RPY_WORLD RS_TRAJ RS_WORLD SCRN_ALARM SCRN_APPL SCRN_CLR_CHR SCRN_CLR_DEL SCRN_CLR_REM SCRN_DATA SCRN_EDIT SCRN_FILE SCRN_IDE SCRN_IO SCRN_LOGIN SCRN_MOTION SCRN_PROG SCRN_SERVICE SCRN_SETUP SCRN_SYS SCRN_USER SEG_VIA SL_TRAJ SL_WORLD SPD_AUX1 SPD_AUX2 SPD_AUX3 SPD_AUX4 SPD_AZI SPD_CONST SPD_ELV SPD_EMAX SPD_FIRST SPD_JNT SPD_LIN SPD_ROLL SPD_ROT SPD_SECOND SPD_SPN SPD_THIRD STR_COLL STR_COMP STR_COMPOSE STR_DECOMPOSE STR_LWR STR_OPER_ADLER STR_OPER_BXOR STR_OPER_CRC32 STR_TRIM STR_UPR TOOL TRUE UFRAME WIN_BLACK WIN_BLINK_OFF WIN_BLINK_ON WIN_BLUE WIN_BOLD_OFF WIN_BOLD_ON WIN_CLR_ALL WIN_CLR_BOLN WIN_CLR_BOW WIN_CLR_EOLN WIN_CLR_EOW WIN_CLR_LINE WIN_CRSR_OFF WIN_CRSR_ON WIN_CYAN WIN_DARKGRAY WIN_GREEN WIN_GRAY WIN_LIGHTGRAY WIN_MAGENTA WIN_ORANGE WIN_PINK WIN_RED WIN_REVERSE WIN_SCROLL WIN_WHITE WIN_WRAP WIN_YELLOW WRIST_JNT ZERO</Keywords>
+            <Keywords name="Keywords3">$DOUT $DIN $FMI $FMO $IN $OUT $GMI $GMO</Keywords>
+            <Keywords name="Keywords4">$ARM_SPD_OVR $ARM_ACC_OVR $ARM_DEC_OVR</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00( 01 02) 03[ 04 05] 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="008000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
